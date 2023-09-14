@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 70px;
+  font-weight: 700;
+  animation-name: java;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes java {
+  0% {
+    color: teal;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: blueviolet;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: teal;
+  }
+}
