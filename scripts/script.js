@@ -480,7 +480,7 @@
 //   };
 // }
 
-const Alish = Person("Alisher", 27, "Businessman")
+// const Alish = Person("Alisher", 27, "Businessman");
 
 // console.log(Alish.speaker());
 // Object.assign() bu object yaratmaydi ularni nusxalash uchun ishlatiladi
