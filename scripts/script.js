@@ -437,8 +437,8 @@
 // const alisher5 = new person("Alisher5", 30, "Businessman");
 // const alisher6 = new person("Alisher6", 27, "Businessman");
 console.log(
-//   alisher.speaker(),
-//   alisher1.speaker(),
+  alisher.speaker(),
+  alisher1.speaker(),
 //   Nargiza.speaker(),
 //   alisher3.speaker(),
 //   alisher4.speaker(),
