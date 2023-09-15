@@ -467,7 +467,7 @@
 
 // console.log(Abbos);
 
-Funcksiya yordamida yaratilgan objectlar return qaytarsagina yangi o'zgaruvchiga o'zlashtirish shart bo'lmaydi
+// Funcksiya yordamida yaratilgan objectlar return qaytarsagina yangi o'zgaruvchiga o'zlashtirish shart bo'lmaydi
 function Person(name, age, profession) {
   return {
     name: name,
