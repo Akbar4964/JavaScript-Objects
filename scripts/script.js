@@ -397,14 +397,14 @@
 // Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi 
 // va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi 
 // berilishi kerak
-// const alisher = {
-//   name: "Alisher",
-//   age: 27,
-//   profession: "Businessman",
-//   speaker: function () {
-//     console.log("Salom" + this.name);
-//   },
-// };
+const alisher = {
+  name: "Alisher",
+  age: 27,
+  profession: "Businessman",
+  speaker: function () {
+    console.log("Salom" + this.name);
+  },
+};
 
 const nargiza = {
   name: "Nargiza",
