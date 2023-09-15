@@ -458,10 +458,10 @@
 //     this.profession = profession;
 //   }
 
-  speaker = function () {
-    console.log("Assalomu alaykum " + this.name);
-  };
-}
+//   speaker = function () {
+//     console.log("Assalomu alaykum " + this.name);
+//   };
+// }
 
 const Abbos = new person1("Abbos", 27, "Businessman");
 
