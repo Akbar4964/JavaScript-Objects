@@ -427,7 +427,7 @@
 //   };
 // }
 
-// console.log(alisher1("Alisher", 27, "Businessman"));
+console.log(alisher1("Alisher", 27, "Businessman"));
 
 const alisher = new person("Alisher", 27, "Businessman");
 const alisher1 = new person("Alisher1", 15, "Businessman");
