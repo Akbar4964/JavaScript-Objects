@@ -384,12 +384,12 @@ const createPerson = new createClassObject(
 );
 console.log(createPerson);
 
-const createAssignObject = {};
-Object.assign(createAssignObject, {
-  name: "Akbar",
-  surname: "Shuhratullayev",
-  age: 17,
-  profession: "Developer",
-  address: "Tashkent",
-});
-console.log(createAssignObject);
+// const createAssignObject = {};
+// Object.assign(createAssignObject, {
+//   name: "Akbar",
+//   surname: "Shuhratullayev",
+//   age: 17,
+//   profession: "Developer",
+//   address: "Tashkent",
+// });
+// console.log(createAssignObject);
