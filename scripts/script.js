@@ -446,7 +446,7 @@
 //   alisher6.speaker()
 // );
 
-// class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
+class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
 class person1 {
   color = "yellow";
   name = "";
