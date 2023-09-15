@@ -358,38 +358,38 @@ console.log(
   createFunctionObject("Akbar", "Shuhratullayev", 17, "DEveloper", "Tashkent")
 );
 
-const createMethodObject = Object.create(null);
-createMethodObject.name = "Akbar";
-createMethodObject.surname = "Shuhratullayev";
-createMethodObject.age = 17;
-createMethodObject.profession = "Developer";
-createMethodObject.address = "Tashkent";
-console.log(createMethodObject);
+// const createMethodObject = Object.create(null);
+// createMethodObject.name = "Akbar";
+// createMethodObject.surname = "Shuhratullayev";
+// createMethodObject.age = 17;
+// createMethodObject.profession = "Developer";
+// createMethodObject.address = "Tashkent";
+// console.log(createMethodObject);
 
-class createClassObject {
-  constructor(name, surname, age, profession, address) {
-    this.name = name;
-    this.surname = surname;
-    this.age = age;
-    this.profession = profession;
-    this.address = address;
-  }
-}
-const createPerson = new createClassObject(
-  "Akbar",
-  "Shuhratullayev",
-  17,
-  "Developer",
-  "Tashkent"
-);
-console.log(createPerson);
+// class createClassObject {
+//   constructor(name, surname, age, profession, address) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.age = age;
+//     this.profession = profession;
+//     this.address = address;
+//   }
+// }
+// const createPerson = new createClassObject(
+//   "Akbar",
+//   "Shuhratullayev",
+//   17,
+//   "Developer",
+//   "Tashkent"
+// );
+// console.log(createPerson);
 
-const createAssignObject = {};
-Object.assign(createAssignObject, {
-  name: "Akbar",
-  surname: "Shuhratullayev",
-  age: 17,
-  profession: "Developer",
-  address: "Tashkent",
-});
-console.log(createAssignObject);
+// const createAssignObject = {};
+// Object.assign(createAssignObject, {
+//   name: "Akbar",
+//   surname: "Shuhratullayev",
+//   age: 17,
+//   profession: "Developer",
+//   address: "Tashkent",
+// });
+// console.log(createAssignObject);
