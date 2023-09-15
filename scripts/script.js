@@ -394,9 +394,9 @@
 // });
 // console.log(createAssignObject);
 
-Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi 
-va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi 
-berilishi kerak
+// Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi 
+// va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi 
+// berilishi kerak
 // const alisher = {
 //   name: "Alisher",
 //   age: 27,
@@ -415,9 +415,9 @@ berilishi kerak
 //   },
 // };
 
-// Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
-// yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
-// object yaratish qulayligini berishida
+Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
+yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
+object yaratish qulayligini berishida
 function person(name, age, profession) {
   this.name = name;
   this.age = age;
