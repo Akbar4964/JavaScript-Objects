@@ -393,3 +393,116 @@
 //   address: "Tashkent",
 // });
 // console.log(createAssignObject);
+
+// Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi 
+// va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi 
+// berilishi kerak
+// const alisher = {
+//   name: "Alisher",
+//   age: 27,
+//   profession: "Businessman",
+//   speaker: function () {
+//     console.log("Salom" + this.name);
+//   },
+// };
+
+const nargiza = {
+  name: "Nargiza",
+  age: 20,
+  profession: "Chef",
+  speaker: function () {
+    console.log("Salom" + this.name);
+  },
+};
+
+// Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
+// yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
+// object yaratish qulayligini berishida
+function person(name, age, profession) {
+  this.name = name;
+  this.age = age;
+  this.profession = profession;
+  this.speaker = function () {
+    console.log("Assalomu alaykum " + this.name);
+  };
+}
+
+// console.log(alisher1("Alisher", 27, "Businessman"));
+
+const alisher = new person("Alisher", 27, "Businessman");
+const alisher1 = new person("Alisher1", 15, "Businessman");
+const Nargiza = new person("Nargiza", 46, "Businessman");
+const alisher3 = new person("Alishe3r", 10, "Businessman");
+const alisher4 = new person("Alisher4", 63, "Businessman");
+const alisher5 = new person("Alisher5", 30, "Businessman");
+const alisher6 = new person("Alisher6", 27, "Businessman");
+// console.log(
+//   alisher.speaker(),
+//   alisher1.speaker(),
+//   Nargiza.speaker(),
+//   alisher3.speaker(),
+//   alisher4.speaker(),
+//   alisher5.speaker(),
+//   alisher6.speaker()
+// );
+
+// class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
+class person1 {
+  color = "yellow";
+  name = "";
+  age = "";
+  profession = "";
+  constructor(name, age, profession) {
+    this.name = name;
+    this.age = age;
+    this.profession = profession;
+  }
+
+  speaker = function () {
+    console.log("Assalomu alaykum " + this.name);
+  };
+}
+
+const Abbos = new person1("Abbos", 27, "Businessman");
+
+// console.log(Abbos);
+
+// Funcksiya yordamida yaratilgan objectlar return qaytarsagina yangi o'zgaruvchiga o'zlashtirish shart bo'lmaydi
+function Person(name, age, profession) {
+  return {
+    name: name,
+    age: age,
+    profession: profession,
+    speaker: function () {
+      //   console.log("Salom" + this.name);
+      //   return "hech narsa....";
+    },
+  };
+}
+
+const Alish = Person("Alisher", 27, "Businessman");
+
+// console.log(Alish.speaker());
+// Object.assign() bu object yaratmaydi ularni nusxalash uchun ishlatiladi
+const objectAssign = Object.assign(
+  {},
+  {
+    name: "Nargiza",
+    age: 20,
+    profession: "Chef",
+    speaker: function () {
+      console.log("Salom" + this.name);
+    },
+  }
+);
+
+// console.log(objectAssign);
+// Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Onject.create(null)
+const name = "Akbar";
+const age = 17;
+const profession = "Dev";
+const newObject = Object.create(null);
+newObject.name = name;
+newObject.age = 18;
+newObject.profession = profession;
+console.log(newObject);
