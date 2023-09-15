@@ -498,11 +498,11 @@
 
 // console.log(objectAssign);
 // Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Onject.create(null)
-const name = "Akbar";
-const age = 17;
-const profession = "Dev";
-const newObject = Object.create(null);
-newObject.name = name;
-newObject.age = 18;
-newObject.profession = profession;
-console.log(newObject);
+// const name = "Akbar";
+// const age = 17;
+// const profession = "Dev";
+// const newObject = Object.create(null);
+// newObject.name = name;
+// newObject.age = 18;
+// newObject.profession = profession;
+// console.log(newObject);
