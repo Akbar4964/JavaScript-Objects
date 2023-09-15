@@ -447,16 +447,16 @@
 // );
 
 // class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
-class person1 {
-  color = "yellow";
-  name = "";
-  age = "";
-  profession = "";
-  constructor(name, age, profession) {
-    this.name = name;
-    this.age = age;
-    this.profession = profession;
-  }
+// class person1 {
+//   color = "yellow";
+//   name = "";
+//   age = "";
+//   profession = "";
+//   constructor(name, age, profession) {
+//     this.name = name;
+//     this.age = age;
+//     this.profession = profession;
+//   }
 
   speaker = function () {
     console.log("Assalomu alaykum " + this.name);
