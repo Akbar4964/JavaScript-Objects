@@ -468,17 +468,17 @@
 // console.log(Abbos);
 
 // Funcksiya yordamida yaratilgan objectlar return qaytarsagina yangi o'zgaruvchiga o'zlashtirish shart bo'lmaydi
-function Person(name, age, profession) {
-  return {
-    name: name,
-    age: age,
-    profession: profession,
-    speaker: function () {
-      //   console.log("Salom" + this.name);
-      //   return "hech narsa....";
-    },
-  };
-}
+// function Person(name, age, profession) {
+//   return {
+//     name: name,
+//     age: age,
+//     profession: profession,
+//     speaker: function () {
+//       //   console.log("Salom" + this.name);
+//       //   return "hech narsa....";
+//     },
+//   };
+// }
 
 const Alish = Person("Alisher", 27, "Businessman");
 
