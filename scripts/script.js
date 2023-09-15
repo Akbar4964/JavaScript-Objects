@@ -484,17 +484,17 @@
 
 // console.log(Alish.speaker());
 // Object.assign() bu object yaratmaydi ularni nusxalash uchun ishlatiladi
-const objectAssign = Object.assign(
-  {},
-  {
-    name: "Nargiza",
-    age: 20,
-    profession: "Chef",
-    speaker: function () {
-      console.log("Salom" + this.name);
-    },
-  }
-)
+// const objectAssign = Object.assign(
+//   {},
+//   {
+//     name: "Nargiza",
+//     age: 20,
+//     profession: "Chef",
+//     speaker: function () {
+//       console.log("Salom" + this.name);
+//     },
+//   }
+// );
 
 // console.log(objectAssign);
 // Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Onject.create(null)
