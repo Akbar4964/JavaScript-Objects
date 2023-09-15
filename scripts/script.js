@@ -431,8 +431,8 @@
 
 // const alisher = new person("Alisher", 27, "Businessman");
 // const alisher1 = new person("Alisher1", 15, "Businessman");
-// const Nargiza = new person("Nargiza", 46, "Businessman");
-// const alisher3 = new person("Alishe3r", 10, "Businessman");
+const Nargiza = new person("Nargiza", 46, "Businessman");
+const alisher3 = new person("Alishe3r", 10, "Businessman");
 // const alisher4 = new person("Alisher4", 63, "Businessman");
 // const alisher5 = new person("Alisher5", 30, "Businessman");
 // const alisher6 = new person("Alisher6", 27, "Businessman");
