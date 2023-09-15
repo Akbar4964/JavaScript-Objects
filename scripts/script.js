@@ -494,7 +494,7 @@ const objectAssign = Object.assign(
       console.log("Salom" + this.name);
     },
   }
-);
+)
 
 // console.log(objectAssign);
 // Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Onject.create(null)
