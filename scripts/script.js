@@ -415,9 +415,9 @@
 //   },
 // };
 
-Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
-yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
-object yaratish qulayligini berishida
+// Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
+// yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
+// object yaratish qulayligini berishida
 function person(name, age, profession) {
   this.name = name;
   this.age = age;
