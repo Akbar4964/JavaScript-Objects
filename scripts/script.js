@@ -476,7 +476,7 @@ function Person(name, age, profession) {
     speaker: function () {
       //   console.log("Salom" + this.name);
       //   return "hech narsa....";
-    },
+    }
   };
 }
 
