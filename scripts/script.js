@@ -436,15 +436,15 @@
 // const alisher4 = new person("Alisher4", 63, "Businessman");
 // const alisher5 = new person("Alisher5", 30, "Businessman");
 // const alisher6 = new person("Alisher6", 27, "Businessman");
-console.log(
-//   alisher.speaker(),
-//   alisher1.speaker(),
-//   Nargiza.speaker(),
-  alisher3.speaker(),
-  alisher4.speaker(),
-  alisher5.speaker(),
-  alisher6.speaker()
-);
+// console.log(
+// //   alisher.speaker(),
+// //   alisher1.speaker(),
+// //   Nargiza.speaker(),
+//   alisher3.speaker(),
+//   alisher4.speaker(),
+//   alisher5.speaker(),
+//   alisher6.speaker()
+// );
 
 // class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
 class person1 {
