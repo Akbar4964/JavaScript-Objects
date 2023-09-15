@@ -406,14 +406,14 @@
 //   },
 // };
 
-const nargiza = {
-  name: "Nargiza",
-  age: 20,
-  profession: "Chef",
-  speaker: function () {
-    console.log("Salom" + this.name);
-  },
-};
+// const nargiza = {
+//   name: "Nargiza",
+//   age: 20,
+//   profession: "Chef",
+//   speaker: function () {
+//     console.log("Salom" + this.name);
+//   },
+// };
 
 // Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
 // yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
