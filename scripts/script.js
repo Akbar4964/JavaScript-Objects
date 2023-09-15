@@ -465,7 +465,7 @@
 
 const Abbos = new person1("Abbos", 27, "Businessman");
 
-// console.log(Abbos);
+console.log(Abbos);
 
 // Funcksiya yordamida yaratilgan objectlar return qaytarsagina yangi o'zgaruvchiga o'zlashtirish shart bo'lmaydi
 function Person(name, age, profession) {
