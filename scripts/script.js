@@ -440,10 +440,10 @@ console.log(
 //   alisher.speaker(),
 //   alisher1.speaker(),
 //   Nargiza.speaker(),
-//   alisher3.speaker(),
-//   alisher4.speaker(),
-//   alisher5.speaker(),
-//   alisher6.speaker()
+  alisher3.speaker(),
+  alisher4.speaker(),
+  alisher5.speaker(),
+  alisher6.speaker()
 );
 
 // class yordamida yaratilgan objectlar return qaytarmaganligi sabab biron bir o'zgaruvchiga tayinlanishi shart
