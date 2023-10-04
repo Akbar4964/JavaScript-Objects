@@ -497,7 +497,7 @@
 //   }
 // );
 
-// console.log(objectAssign);
+console.log(objectAssign);
 // Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Object.create(null)
 // const name = "Akbar";
 // const age = 17;
