@@ -541,7 +541,7 @@ const family = {
   isLarge: false,
   man: {
     name: "Eshmat",
-//     age: 45,
+    age: 45,
 //     child: {
 //       name: "Toshmat",
 //       age: 20,
