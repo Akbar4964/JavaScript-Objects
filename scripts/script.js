@@ -549,7 +549,7 @@ const family = {
 //         name: "Chaqaloq",
 //       },
 //     },
-//   },
+  },
 };
 
 // const family2 = { ...family };
