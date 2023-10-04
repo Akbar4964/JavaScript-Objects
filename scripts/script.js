@@ -508,7 +508,7 @@
 // newObject.profession = profession;
 // console.log(newObject);
 
-const person = {
+// const person = {
   name: "Alisher",
   age: 25,
   job: "Doctor",
