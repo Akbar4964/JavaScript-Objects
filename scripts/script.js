@@ -568,8 +568,8 @@ family2.man.child.age = 10;
 
 family3.members = 10;
 family3.isLarge = true;
-// family3.man.name = "Ali";
-// family3.man.child.age = 14;
+family3.man.name = "Ali";
+family3.man.child.age = 14;
 
 // family4.members = 15;
 // family4.isLarge = true;
