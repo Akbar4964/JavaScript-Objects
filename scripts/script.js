@@ -534,7 +534,7 @@ console.log(mevalar);
 
 //rest => ...
 const [...meva] = [...mevalar];
-// console.log(meva);
+console.log(meva);
 
 // const family = {
 //   members: 4,
