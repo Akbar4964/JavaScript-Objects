@@ -559,7 +559,7 @@ const family3 = {
   man: { ...family.man, child: { ...family.man.child } },
 };
 
-// const family4 = JSON.parse(JSON.stringify(family));
+const family4 = JSON.parse(JSON.stringify(family));
 
 // family2.members = 7;
 // family2.isLarge = true;
