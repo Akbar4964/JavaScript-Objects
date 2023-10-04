@@ -511,7 +511,7 @@
 const person = {
   name: "Alisher",
   age: 25,
-  // job: "Doctor",
+  job: "Doctor",
 };
 
 // const mevalar = ["olma", "bexi", "anjir", 5];
