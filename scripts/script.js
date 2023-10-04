@@ -510,7 +510,7 @@
 
 const person = {
   name: "Alisher",
-  // age: 25,
+  age: 25,
   // job: "Doctor",
 };
 
