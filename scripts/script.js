@@ -561,10 +561,10 @@ const family3 = {
 
 const family4 = JSON.parse(JSON.stringify(family));
 
-// family2.members = 7;
-// family2.isLarge = true;
-// family2.man.name = "Qulmurod";
-// family2.man.child.age = 10;
+family2.members = 7;
+family2.isLarge = true;
+family2.man.name = "Qulmurod";
+family2.man.child.age = 10;
 
 // family3.members = 10;
 // family3.isLarge = true;
