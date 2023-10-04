@@ -519,7 +519,7 @@ console.log(person["job"]);
 
 const { name, age, job } = person;
 
-// const [meva, meva2, meva3, meva4] = mevalar;
+const [meva, meva2, meva3, meva4] = mevalar;
 
 // const name = "Akbar";
 
