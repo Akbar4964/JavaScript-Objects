@@ -539,7 +539,7 @@ console.log(meva);
 const family = {
   members: 4,
   isLarge: false,
-//   man: {
+  man: {
 //     name: "Eshmat",
 //     age: 45,
 //     child: {
