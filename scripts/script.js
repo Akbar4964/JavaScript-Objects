@@ -537,7 +537,7 @@ const [...meva] = [...mevalar];
 console.log(meva);
 
 const family = {
-//   members: 4,
+  members: 4,
 //   isLarge: false,
 //   man: {
 //     name: "Eshmat",
