@@ -509,7 +509,7 @@
 // console.log(newObject);
 
 const person = {
-  // name: "Alisher",
+  name: "Alisher",
   // age: 25,
   // job: "Doctor",
 };
