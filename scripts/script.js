@@ -554,10 +554,10 @@ const family = {
 
 const family2 = { ...family };
 
-// const family3 = {
-//   ...family,
-//   man: { ...family.man, child: { ...family.man.child } },
-// };
+const family3 = {
+  ...family,
+  man: { ...family.man, child: { ...family.man.child } },
+};
 
 // const family4 = JSON.parse(JSON.stringify(family));
 
