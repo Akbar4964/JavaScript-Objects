@@ -542,13 +542,13 @@ const family = {
   man: {
     name: "Eshmat",
     age: 45,
-//     child: {
-//       name: "Toshmat",
-//       age: 20,
-//       baby: {
-//         name: "Chaqaloq",
-//       },
-//     },
+    child: {
+      name: "Toshmat",
+      age: 20,
+      baby: {
+        name: "Chaqaloq",
+      },
+    },
   },
 };
 
