@@ -508,72 +508,72 @@
 // newObject.profession = profession;
 // console.log(newObject);
 
-const person = {
-  name: "Alisher",
-  age: 25,
-  job: "Doctor",
-};
+// const person = {
+//   name: "Alisher",
+//   age: 25,
+//   job: "Doctor",
+// };
 
-const mevalar = ["olma", "bexi", "anjir", 5];
-console.log(person["job"]);
+// const mevalar = ["olma", "bexi", "anjir", 5];
+// console.log(person["job"]);
 
-const { name, age, job } = person;
+// const { name, age, job } = person;
 
-const [meva, meva2, meva3, meva4] = mevalar;
+// const [meva, meva2, meva3, meva4] = mevalar;
 
-const name = "Akbar";
-console.log(name, age, job);
-console.log(person.name, person.age, person.job);
-console.log(person["name"], person["age"], person["job"]);
-console.log(meva, meva2, meva3, meva4);
+// const name = "Akbar";
+// console.log(name, age, job);
+// console.log(person.name, person.age, person.job);
+// console.log(person["name"], person["age"], person["job"]);
+// console.log(meva, meva2, meva3, meva4);
 
-//spread => ...
-const mevalarNushasi = [...mevalar];
-console.log(mevalarNushasi);
-console.log(mevalar);
+// //spread => ...
+// const mevalarNushasi = [...mevalar];
+// console.log(mevalarNushasi);
+// console.log(mevalar);
 
-//rest => ...
-const [...meva] = [...mevalar];
-console.log(meva);
+// //rest => ...
+// const [...meva] = [...mevalar];
+// console.log(meva);
 
-const family = {
-  members: 4,
-  isLarge: false,
-  man: {
-    name: "Eshmat",
-    age: 45,
-    child: {
-      name: "Toshmat",
-      age: 20,
-      baby: {
-        name: "Chaqaloq",
-      },
-    },
-  },
-};
+// const family = {
+//   members: 4,
+//   isLarge: false,
+//   man: {
+//     name: "Eshmat",
+//     age: 45,
+//     child: {
+//       name: "Toshmat",
+//       age: 20,
+//       baby: {
+//         name: "Chaqaloq",
+//       },
+//     },
+//   },
+// };
 
-const family2 = { ...family };
+// const family2 = { ...family };
 
-const family3 = {
-  ...family,
-  man: { ...family.man, child: { ...family.man.child } },
-};
+// const family3 = {
+//   ...family,
+//   man: { ...family.man, child: { ...family.man.child } },
+// };
 
-const family4 = JSON.parse(JSON.stringify(family));
+// const family4 = JSON.parse(JSON.stringify(family));
 
-family2.members = 7;
-family2.isLarge = true;
-family2.man.name = "Qulmurod";
-family2.man.child.age = 10;
+// family2.members = 7;
+// family2.isLarge = true;
+// family2.man.name = "Qulmurod";
+// family2.man.child.age = 10;
 
-family3.members = 10;
-family3.isLarge = true;
-family3.man.name = "Ali";
-family3.man.child.age = 14;
+// family3.members = 10;
+// family3.isLarge = true;
+// family3.man.name = "Ali";
+// family3.man.child.age = 14;
 
-family4.members = 15;
-family4.isLarge = true;
-family4.man.name = "Baxodir";
-family4.man.child.age = 18;
-family4.man.child.baby.name = "Baqaloq";
-console.log(family.man.child.baby, family4.man.child.baby);
+// family4.members = 15;
+// family4.isLarge = true;
+// family4.man.name = "Baxodir";
+// family4.man.child.age = 18;
+// family4.man.child.baby.name = "Baqaloq";
+// console.log(family.man.child.baby, family4.man.child.baby);
