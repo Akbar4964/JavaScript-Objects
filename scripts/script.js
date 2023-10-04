@@ -571,7 +571,7 @@ family3.isLarge = true;
 family3.man.name = "Ali";
 family3.man.child.age = 14;
 
-// family4.members = 15;
+family4.members = 15;
 // family4.isLarge = true;
 // family4.man.name = "Baxodir";
 // family4.man.child.age = 18;
