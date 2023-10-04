@@ -552,7 +552,7 @@ const family = {
   },
 };
 
-// const family2 = { ...family };
+const family2 = { ...family };
 
 // const family3 = {
 //   ...family,
