@@ -533,7 +533,7 @@ console.log(mevalarNushasi);
 console.log(mevalar);
 
 //rest => ...
-// const [...meva] = [...mevalar];
+const [...meva] = [...mevalar];
 // console.log(meva);
 
 // const family = {
