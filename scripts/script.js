@@ -575,6 +575,6 @@ family4.members = 15;
 family4.isLarge = true;
 family4.man.name = "Baxodir";
 family4.man.child.age = 18;
-// family4.man.child.baby.name = "Baqaloq";
+family4.man.child.baby.name = "Baqaloq";
 
 // console.log(family.man.child.baby, family4.man.child.baby);
