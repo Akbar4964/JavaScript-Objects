@@ -550,7 +550,7 @@ const family = {
 //       },
 //     },
 //   },
-// };
+};
 
 // const family2 = { ...family };
 
