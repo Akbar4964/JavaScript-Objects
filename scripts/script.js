@@ -516,7 +516,7 @@
 
 // const mevalar = ["olma", "bexi", "anjir", 5];
 
-console.log(person["job"]);
+// console.log(person["job"]);
 
 // const { name, age, job } = person;
 // const [meva, meva2, meva3, meva4] = mevalar;
