@@ -522,8 +522,7 @@ const { name, age, job } = person;
 const [meva, meva2, meva3, meva4] = mevalar;
 
 const name = "Akbar";
-
-// console.log(name, age, job);
+console.log(name, age, job);
 // console.log(person.name, person.age, person.job);
 // console.log(person["name"], person["age"], person["job"]);
 
