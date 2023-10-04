@@ -536,7 +536,7 @@ console.log(mevalar);
 const [...meva] = [...mevalar];
 console.log(meva);
 
-// const family = {
+const family = {
 //   members: 4,
 //   isLarge: false,
 //   man: {
