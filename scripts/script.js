@@ -528,7 +528,7 @@ console.log(person["name"], person["age"], person["job"]);
 console.log(meva, meva2, meva3, meva4);
 
 //spread => ...
-// const mevalarNushasi = [...mevalar];
+const mevalarNushasi = [...mevalar];
 // console.log(mevalarNushasi);
 // console.log(mevalar);
 
