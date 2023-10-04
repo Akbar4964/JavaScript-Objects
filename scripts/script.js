@@ -540,7 +540,7 @@ const family = {
   members: 4,
   isLarge: false,
   man: {
-//     name: "Eshmat",
+    name: "Eshmat",
 //     age: 45,
 //     child: {
 //       name: "Toshmat",
