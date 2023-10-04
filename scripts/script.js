@@ -529,7 +529,7 @@ console.log(meva, meva2, meva3, meva4);
 
 //spread => ...
 const mevalarNushasi = [...mevalar];
-// console.log(mevalarNushasi);
+console.log(mevalarNushasi);
 // console.log(mevalar);
 
 //rest => ...
