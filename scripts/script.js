@@ -525,7 +525,6 @@ const name = "Akbar";
 console.log(name, age, job);
 console.log(person.name, person.age, person.job);
 console.log(person["name"], person["age"], person["job"]);
-
 console.log(meva, meva2, meva3, meva4);
 
 //spread => ...
