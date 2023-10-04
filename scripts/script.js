@@ -514,7 +514,7 @@
   // job: "Doctor",
 // };
 
-const mevalar = ["olma", "bexi", "anjir", 5];
+// const mevalar = ["olma", "bexi", "anjir", 5];
 
 // console.log(person["job"]);
 
