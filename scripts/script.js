@@ -394,8 +394,8 @@
 // });
 // console.log(createAssignObject);
 
-// Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi 
-// va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi 
+// Eng oson object yaratish usuli bu literal yo'li bilan lekin eng ko'p qator yozish va ko'plab ozgartirish kiritilishi mumkinligi uchun juda noqulaylik keltiradi
+// va kodlarni qatorini juda ko'paytirib yuborib objectlarni orasidan bir-birini topish qiyinlashadi va ularga qancha object bolsa shuncha ozgaruvchi nomi
 // berilishi kerak
 // const alisher = {
 //   name: "Alisher",
@@ -405,6 +405,7 @@
 //     console.log("Salom" + this.name);
 //   },
 // };
+// console.log(alisher)
 
 // const nargiza = {
 //   name: "Nargiza",
@@ -415,7 +416,7 @@
 //   },
 // };
 
-// Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this 
+// Funksiya yordamida yaratilgan objectlar qolganlardan qulayligi bilan farq qiladi va bu eng yaxshi object yaratish usuli hisoblanadi va bu this
 // yordamida kalitlari yoziladi buning natijasida return qaytarmaydi va bu o'zgaruvchiga tayinlanadi va natijasi consloeda chiqariladi eng asosiy farqi boshqalardan
 // object yaratish qulayligini berishida
 // function person(name, age, profession) {
@@ -497,7 +498,7 @@
 // );
 
 // console.log(objectAssign);
-// Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Onject.create(null)
+// Yangi object hosil qilish uchun ishlatiladi va objectning o'zining metodi yordamida ishlatiladi --> Object.create(null)
 // const name = "Akbar";
 // const age = 17;
 // const profession = "Dev";
@@ -506,3 +507,75 @@
 // newObject.age = 18;
 // newObject.profession = profession;
 // console.log(newObject);
+
+const person = {
+  name: "Alisher",
+  age: 25,
+  job: "Doctor",
+};
+
+const mevalar = ["olma", "bexi", "anjir", 5];
+
+// console.log(person["job"]);
+
+// const { name, age, job } = person;
+// const [meva, meva2, meva3, meva4] = mevalar;
+// const name = "Akbar";
+
+// console.log(name, age, job);
+// console.log(person.name, person.age, person.job);
+// console.log(person["name"], person["age"], person["job"]);
+
+// console.log(meva, meva2, meva3, meva4);
+
+//spread => ...
+// const mevalarNushasi = [...mevalar];
+// console.log(mevalarNushasi);
+// console.log(mevalar);
+
+//rest => ...
+// const [...meva] = [...mevalar];
+// console.log(meva);
+
+// const family = {
+//   members: 4,
+//   isLarge: false,
+//   man: {
+//     name: "Eshmat",
+//     age: 45,
+//     child: {
+//       name: "Toshmat",
+//       age: 20,
+//       baby: {
+//         name: "Chaqaloq",
+//       },
+//     },
+//   },
+// };
+
+// const family2 = { ...family };
+
+// const family3 = {
+//   ...family,
+//   man: { ...family.man, child: { ...family.man.child } },
+// };
+
+// const family4 = JSON.parse(JSON.stringify(family));
+
+// family2.members = 7;
+// family2.isLarge = true;
+// family2.man.name = "Qulmurod";
+// family2.man.child.age = 10;
+
+// family3.members = 10;
+// family3.isLarge = true;
+// family3.man.name = "Ali";
+// family3.man.child.age = 14;
+
+// family4.members = 15;
+// family4.isLarge = true;
+// family4.man.name = "Baxodir";
+// family4.man.child.age = 18;
+// family4.man.child.baby.name = "Baqaloq";
+
+// console.log(family.man.child.baby, family4.man.child.baby);
