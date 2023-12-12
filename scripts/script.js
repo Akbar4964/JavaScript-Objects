@@ -579,6 +579,3 @@
 // console.log(family.man.child.baby, family4.man.child.baby);
 
 
-
-
-
