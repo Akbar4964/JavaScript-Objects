@@ -578,3 +578,4 @@
 // family4.man.child.baby.name = "Baqaloq";
 // console.log(family.man.child.baby, family4.man.child.baby);
 
+
